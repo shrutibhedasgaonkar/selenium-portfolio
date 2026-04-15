@@ -1,0 +1,22 @@
+# .gitignore
+
+# Python cache files — generated automatically, not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment — too large, recreated from requirements.txt
+.venv/
+venv/
+
+# Test reports — generated fresh each run
+reports/
+
+# Environment variables — contains passwords, never commit
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.idea/
